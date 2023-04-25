@@ -439,7 +439,7 @@
 }
 
 .central-emptype label {
-    font-size: .8rem;
+    font-size: 14rem;
     margin-left: 0.5rem;
 }
 .outer-form .form-group {
@@ -550,7 +550,29 @@ hr.borde {
   left: 50px;
 }
 
+@media only screen and (max-width: 1440px){
+
+.central-emptype label {
+    font-size: 12rem;
+    margin-left: 0.5rem;
+}
+
+	.outer-form {
+    padding: 15px 5px;
+    margin: 15% 0 0 -5%;
+    background: #fff;
+    max-width: 450px;
+    box-shadow: 0 0 14px rgb(0 0 0 / 10%);
+}
+}
+
+
 @media only screen and (max-width: 1200px){
+
+.central-emptype label {
+    font-size: 12rem;
+    margin-left: 0.5rem;
+}
 
 	.outer-form {
     padding: 15px 5px;
